@@ -15,7 +15,7 @@
     
     <body>
         
-          <form>
+          <form name="user">
         
         
                 <div class="login">
@@ -30,8 +30,9 @@
                 
                 
                 
-                    <label >Email</label>
+                    <label onblur="emailValidate(user.email)">Email</label>
                     <input  type="text" placeholder="Email Address"><br/>
+              <div id="msgemail"></div>
                 
                 
                 
