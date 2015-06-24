@@ -29,7 +29,7 @@ body:before {
  h1 {
   text-align: center;
 }
-.login label {
+.login 1 label {
   font-size: 20px;
   color: rgba(0,0,0,0.4);
 }

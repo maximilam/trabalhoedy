@@ -15,7 +15,7 @@
     
     <body>
         
-          <form>
+          <form name="employee">
             <div class="login">
                 <h1>Employee</h1>
               
@@ -31,7 +31,7 @@
                     <label for="ppc">PPC(CPF)</label>
                     <input id="ppc" type="text" placeholder="000.000.000-00">
                 
-                    <label for="email">Email</label>
+                    <label for="email" onblur="emailValidate(employee.email">Email</label>
                     <input id="email" type="text" placeholder="Email Address">
                 
                     <label for="phone">Phone</label>
